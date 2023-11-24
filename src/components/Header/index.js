@@ -1,7 +1,7 @@
 import './header.scss';
 import React from 'react';
 import hamburguer from '../../imgs/burguer.png'
-import logo from '../../imgs/logo_color.png'
+import logo from '../../imgs/bot_icon.png'
 import { useState, useEffect } from "react";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
 import * as Scroll from 'react-scroll';

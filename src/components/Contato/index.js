@@ -1,7 +1,8 @@
 import React from 'react';
 import { Element } from "react-scroll";
-import Galoicon from '../../imgs/galoIcon.png'
-import Fabricio from '../../imgs/time/Fabricio.png'
+import SerenibotIcon from '../../imgs/SereniBOT_logo.png'
+import Matheus from '../../imgs/time/Matheus.png'
+import Vinicius from '../../imgs/time/Vinicius.png'
 import WppIcon from "../../imgs/icons/whatsapp-icon.png";
 import EmailIcon from "../../imgs/icons/email-icon.png";
 import './contato.scss'
@@ -24,38 +25,40 @@ function Contato() {
                     <div className="SbrContainer">
                         <div className="SobreImg">
                             <img
-                                src={Galoicon}
+                                src={SerenibotIcon}
                                 alt="Icone da logo marca">
                             </img>
                         </div>
                         <div className="SobreTxT">
-                            <p> No coração do "Galo Weather" está nossa visão ousada de transformar radicalmente a forma como
-                                enfrentamos os desafios dos alagamentos urbanos. Inspirados pelo galo, símbolo tradicionalmente
-                                associado à previsão do tempo e à vigilância, buscamos antecipar e mitigar as inundações que impactam
-                                comunidades em áreas urbanas. Assim como o galo anuncia o amanhecer, queremos antever e preparar as cidades
-                                para lidar proativamente com as intempéries climáticas, integrando tecnologia inovadora e análise de dados para
-                                criar cidades mais seguras e resilientes.</p>
-
-                            <p>A escolha do galo como nosso símbolo vai além da previsão do tempo; ele representa nossa missão de despertar a
-                                consciência e ação preventiva diante das inundações. Assim como o galo é vigilante e anuncia mudanças climáticas,
-                                nós, no "Galo Weather", aspiramos a ser a voz que alerta e mobiliza comunidades para se prepararem e se protegerem.
-                                Nossa missão é utilizar a sabedoria da natureza, combinada com a inovação tecnológica, para forjar um futuro onde
-                                as cidades possam enfrentar os desafios climáticos, garantindo segurança e bem-estar para todos.</p>
+                            <p> No cerne do nosso programa está o compromisso de oferecer suporte essencial para aqueles que 
+                                enfrentam depressão e ansiedade. O nosso chatbot, criado para acalmar crises, visa proporcionar 
+                                um espaço seguro e acolhedor, utilizando conversas empáticas para ajudar no alívio desses 
+                                desafios emocionais. O nosso objetivo é oferecer uma ferramenta acessível, orientada para o 
+                                bem-estar mental, ajudando indivíduos a encontrar conforto e suporte durante momentos difíceis.</p>
                         </div>
                     </div>
                 </div>
                 <div className="CardContainer">
                     <div className="Cards">
                         <img
-                            src={Fabricio}
-                            alt="Integrante do grupo Galo">
+                            src={Matheus}
+                            alt="Integrante do grupo SereniBot">
                         </img>
                         <div className="CardContent">
-                            <h2>Fabrício Saavedra</h2>
-                            <p>RM 97631</p>
+                            <h2>Matheus Motta</h2>
+                            <p>RM 550352</p>
                         </div>
                     </div>
-
+                    <div className="Cards">
+                        <img
+                            src={Vinicius}
+                            alt="Integrante do grupo SereniBot">
+                        </img>
+                        <div className="CardContent">
+                            <h2>Vinicius Buzato</h2>
+                            <p>RM 99125</p>
+                        </div>
+                    </div>
                 </div>
 
             </Element>
@@ -91,7 +94,7 @@ function Contato() {
                                 <div className="CardTextContainer">
                                     <p>Contato via Email</p>
                                     <p>Em caso de dúvidas, entre em contato!</p>
-                                    <p>Seu email será respondidoem até 24 horas durante dias úteis</p>
+                                    <p>Seu email será respondido em até 24 horas durante dias úteis</p>
                                     <button onClick={handleEmailClick}>Clique aqui</button>
                                 </div>
                             </div>
