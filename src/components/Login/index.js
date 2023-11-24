@@ -51,7 +51,7 @@ function Login() {
             <button>Entrar</button>
           </form>
           <div className="RedirectSignup">
-            <p>Nao possui uma conta?</p>
+            <p>Não possui uma conta?</p>
             <Link to="/Sign-up" id="redirectSignup">Cadastre-se</Link>
           </div>
           <div className="RedirectHome">

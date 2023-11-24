@@ -17,7 +17,7 @@ function MainPage() {
                 <div>
                     <div className="HomeContainer">
                         <div className="HomeTxt1">
-                            <p>Saúde Única</p>
+                            <p>SereniBOT</p>
                         </div>
                         <div className="HomeImg">
                             <img
