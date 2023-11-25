@@ -1,4 +1,4 @@
-# Global Solution - 2SEM - Front-end Design & Web Development with JavaScript - SereniBOT
+# Global Solution - 2SEM - Front-end Design & Web Development with JavaScript - Anti-Vicio
 ![Badge Concluido](https://img.shields.io/badge/STATUS-CONCLUIDO-GREEN)
 
 **Nomes + RM dos integrantes:**
