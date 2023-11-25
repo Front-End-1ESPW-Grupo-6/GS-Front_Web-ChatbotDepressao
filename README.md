@@ -2,8 +2,8 @@
 ![Badge Concluido](https://img.shields.io/badge/STATUS-CONCLUIDO-GREEN)
 
 **Nomes + RM dos integrantes:**
-- Matheus Motta - 550352
-- Vinicius Buzato - 99125
+- Guilherme Akio - 98582
+- Guilherme Morais - 551981
 
 **Turma:** 1ESPW
 
