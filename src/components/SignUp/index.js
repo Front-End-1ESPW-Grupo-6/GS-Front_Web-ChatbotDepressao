@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./signup.scss";
 import { useEffect, useState } from "react";
-import Logo from "../../imgs/logo_color.png"
+import Logo from "../../imgs/SereniBOT_color.png"
 import signUp from "./script"
 import OpenEye from '../../imgs/icons/olho.png';
 import ClosedEye from '../../imgs/icons/olho fechado.png';
@@ -35,7 +35,7 @@ function SignUp() {
         <figure className="LogoIMG">
           <Link to="/"><img
             src={Logo}
-            alt="Galo Weather Logo"></img></Link>
+            alt="SereniBOT Logo"></img></Link>
         </figure>
         <div className="SignUpContainer">
           <h1>Cadastro</h1>

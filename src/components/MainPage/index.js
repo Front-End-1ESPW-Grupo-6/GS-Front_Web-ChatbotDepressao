@@ -1,12 +1,12 @@
 import React from 'react';
 import { Element } from 'react-scroll';
-import saudePng from '../../imgs/imagem_capa.jpg';
-import problemaImagem from '../../imgs/icon_color.png';
-import realtime from '../../imgs/icone_7_card.png';
-import Personalização from '../../imgs/icone_6_card.png';
-import Acesso from '../../imgs/icone_5_card.png';
-import Jornada from '../../imgs/icone_8_card.png';
-import UtilizacaoImagem from '../../imgs/infografico.png'
+import roboPNG from '../../imgs/imagem_capa.jpg';
+import solucaoImagem from '../../imgs/bot_icon.png';
+import Impessoalidade from '../../imgs/impessoalidade.png';
+import Validacao from '../../imgs/validacao.png';
+import Seguranca from '../../imgs/seguranca-de-dados.png';
+import disponibilidade from '../../imgs/suporte-24-horas.png';
+import UtilizacaoImagem from '../../imgs/o_que_fara.png'
 import FuncionamentoImagem from '../../imgs/dispositivos.png'
 import './mainpage.scss'
 
@@ -21,12 +21,15 @@ function MainPage() {
                         </div>
                         <div className="HomeImg">
                             <img
-                                src={saudePng}
+                                src={roboPNG}
                                 alt='gif sustentabilidade'></img>
                         </div>
                         <div className="HomeTxt2">
-                            <p>Unindo Saúde, Simplificando Vidas</p>
-                            <p>O Projeto Saúde Única é uma plataforma digital que facilita a busca por atendimento médico, reunindo informações de vários estabelecimentos de saúde. Com ela, é possível agendar consultas, escolher onde ser atendido e ter uma experiência ágil e personalizada.</p>
+                            <p>Conversas que acalmam, apoio que transforma</p>
+                            <p>SereniBOT é um assistente virtual dedicado a oferecer apoio para aqueles que lidam com a depressão e ansiedade. 
+                                Ele é um companheiro digital projetado para proporcionar suporte emocional e orientação. 
+                                Através de conversas empáticas e personalizadas, o SereniBOT está aqui para oferecer alívio e ajudar 
+                                a entender e lidar com os desafios das doenças mentais. </p>
                         </div>
                     </div>
                 </div>
@@ -36,12 +39,16 @@ function MainPage() {
                     <div className="abtContainer">
                         <div className="aboutImg">
                             <img
-                                src={problemaImagem}
-                                alt="inundação"></img>
+                                src={solucaoImagem}
+                                alt="Robo_Icon"></img>
                         </div>
                         <div className="aboutTxT">
                             <p>Sobre a solução</p>
-                            <p>Uma plataforma digital que concentra dados de diferentes locais de saúde, proporcionando facilidade na escolha do local de atendimento. Com um sistema intuitivo, permite agendar consultas, acompanhar o histórico médico e encaminhar para outras instituições, oferecendo eficiência aos pacientes.</p>
+                            <p>AnsioBOT é uma ferramenta digital que reúne informações de diversas fontes sobre técnicas de 
+                                gestão de ansiedade. Este assistente virtual é projetado para oferecer suporte, por meio de 
+                                conversas interativas, ajudando a compreender e gerenciar a ansiedade diária. Com recursos 
+                                intuitivos, fornece estratégias personalizadas para o controle da ansiedade, oferecendo orientação 
+                                e práticas de autocuidado. </p>
 
                         </div>
                     </div>
@@ -50,12 +57,14 @@ function MainPage() {
                     <div className='UtiliContent'>
                         <div className='UtiliTxt'>
                             <p>O que ela fará?</p>
-                            <p>O Projeto Saúde Única centraliza informações sobre locais de atendimento médico, facilitando acesso, avaliação e agendamento de consultas. Também possibilita o acompanhamento da jornada de saúde, redirecionando para outras instituições, se necessário, para cuidados personalizados.</p>
+                            <p>O SereniBOT centraliza informações e orientações para cuidados com a saúde mental, 
+                                auxiliando na busca por apoio emocional e redirecionando para recursos especializados quando necessário, 
+                                proporcionando um suporte personalizado para o bem-estar emocional.</p>
                         </div>
                         <div className="UtiliImg">
                             <img
                                 src={UtilizacaoImagem}
-                                alt="Infografico"></img>
+                                alt="UtiliImg"></img>
                         </div>
                     </div>
                 </div>
@@ -65,7 +74,12 @@ function MainPage() {
                     <div className='FuncioContent'>
                         <div className='FuncioTxt'>
                             <p>Como funcionará?</p>
-                            <p>A Plataforma Saúde Única, acessível via web ou aplicativo, requer um cadastro com informações pessoais, incluindo dados do convênio, se disponível. Utilizando a geolocalização, oferece opções de estabelecimentos de saúde próximos, permitindo agendamento e acesso ao tempo estimado para atendimento. Essa abordagem proporciona uma escolha consciente e ágil para cuidados de saúde personalizados.</p>
+                            <p>O SereniBOT oferece suporte por meio de 
+                                conversas para aqueles que buscam ajuda psicológica. Requer um cadastro básico 
+                                para começar a utilizar. Este chatbot baseado em abordagens médicas funcionais 
+                                oferece um espaço para conversas empáticas e orientações para pessoas lidando com 
+                                desafios emocionais. É uma ferramenta valiosa para quem busca apoio e conforto emocional 
+                                durante momentos difíceis.</p>
                         </div>
                         <div className="FuncioImg">
                             <img
@@ -83,14 +97,14 @@ function MainPage() {
                             <div className="Face1S">
                                 <div className="Face1ContentS">
                                     <img
-                                        src={Acesso}
-                                        alt="Acesso"></img>
-                                    <h3>Facilidade de Acesso</h3>
+                                        src={Impessoalidade}
+                                        alt="Impessoalidade"></img>
+                                    <h3>Impessoalidade</h3>
                                 </div>
                             </div>
                             <div className="Face2S">
                                 <div className="Face2ContentS">
-                                    <p> Informações sobre vários estabelecimentos de saúde para agendamento rápido de consultas.
+                                    <p> Ao conversar com o SereniBOT, você garante que não será julgado, apenas escutado e apoiado.
                                     </p>
                                 </div>
                             </div>
@@ -99,14 +113,14 @@ function MainPage() {
                             <div className="Face1S">
                                 <div className="Face1ContentS">
                                     <img
-                                        src={Personalização}
-                                        alt="Personalização"></img>
-                                    <h3>Personalização</h3>
+                                        src={Validacao}
+                                        alt="Validacao"></img>
+                                    <h3>Abordagem validada</h3>
                                 </div>
                             </div>
                             <div className="Face2S">
                                 <div className="Face2ContentS">
-                                    <p>Seleção consciente do local de tratamento conforme as necessidades individuais.</p>
+                                    <p>O SereniBOT possui conhecimento das melhores abordagens psicológicas para lidar com doenças mentais.</p>
                                 </div>
                             </div>
                         </div>
@@ -114,14 +128,14 @@ function MainPage() {
                             <div className="Face1S">
                                 <div className="Face1ContentS">
                                     <img
-                                        src={realtime}
-                                        alt="realtime"></img>
-                                    <h3>Informações real time</h3>
+                                        src={Seguranca}
+                                        alt="Seguranca"></img>
+                                    <h3>Segurança</h3>
                                 </div>
                             </div>
                             <div className="Face2S">
                                 <div className="Face2ContentS">
-                                    <p>Geolocalização para encontrar locais próximos e estimativa de tempo para atendimento.
+                                    <p>O SereniBOT não armazena, nem questiona, por informações pessoais sensíveis. Seus dados estarão seguros!
                                     </p>
                                 </div>
                             </div>
@@ -130,14 +144,14 @@ function MainPage() {
                             <div className="Face1S">
                                 <div className="Face1ContentS">
                                     <img
-                                        src={Jornada}
-                                        alt="Jornada"></img>
-                                    <h3>Follow up da Jornada de Saúde</h3>
+                                        src={disponibilidade}
+                                        alt="disponibilidade"></img>
+                                    <h3>A todo momento</h3>
                                 </div>
                             </div>
                             <div className="Face2S">
                                 <div className="Face2ContentS">
-                                    <p>Possibilidade de redirecionamento para outras instituições, se necessário.
+                                    <p>O SereniBOT está ativo 24 horas por dia. Ele estará aqui sempre que você precisar dele.
                                     </p>
                                 </div>
                             </div>

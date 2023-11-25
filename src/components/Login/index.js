@@ -3,7 +3,7 @@ import { useState } from "react";
 import './login.scss'
 import OpenEye from "../../imgs/icons/olho.png"
 import ClosedEye from "../../imgs/icons/olho fechado.png"
-import Logo from "../../imgs/logo_color.png"
+import Logo from "../../imgs/SereniBOT_color.png"
 import Auth from "./script"
 
 function Login() {
@@ -25,7 +25,7 @@ function Login() {
         <figure className="LogoIMG">
           <Link to="/"><img
             src={Logo}
-            alt="Galo Weather Logo"></img></Link>
+            alt="SereniBOT Logo"></img></Link>
         </figure>
         <div className="LogContainer">
           <h1>Login</h1>
